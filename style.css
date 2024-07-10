@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", sarif, Cambria, Cochin, Georgia;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(43, 103, 79);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 310px;
+  height: 470px;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #dadada;
+  text-align: center;
+}
+
+.main > img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 6px;
+}
+
+.main > h1 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.main > h3 {
+  color: red;
+  font-size: 23px;
+}
+
+.main > .btns {
+  margin-top: 31px;
+}
+
+.main > .btns > button {
+  padding: 8.6px 17px;
+  margin: 9px;
+  background-color: rgb(24, 172, 16);
+  font-weight: 600;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.main > .btns > #remove {
+  background-color: #d13c3c;
+}
